@@ -1,0 +1,9 @@
+b={"Luffy":"Captain","Zoro":"Swordsmen","Sanji":"Cook","Namisan":"Navigator"}
+print(b.items())
+print(b.keys())
+b.setdefault("Chopper","Doctor")
+print(b)
+c={"Usopp":"Sniper"}
+b.update(c)
+print(b)
+print(b.values())
