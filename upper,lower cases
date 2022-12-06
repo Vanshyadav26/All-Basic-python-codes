@@ -1,0 +1,7 @@
+e="Lovely professional University"
+print(e.upper())
+print(e.capitalize())
+print(e.lower())
+print(e.title())
+print(e.swapcase())
+print(e.split())
